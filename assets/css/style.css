@@ -521,10 +521,10 @@ body.active { overflow: hidden; }
 
 .upcoming .filter-btn {
   color: var(--rich-black-fogra-29);
-  background: var(--raisin-black);
+  background: var(--pastel-yellow);
   font-size: var(--fs-11);
   font-weight: var(--fw-500);
-  border: 2px solid var(--gunmetal-1);
+  border: 2px solid var(--pastel-yellow);
   padding: 12px 26px;
   border-radius: 50px;
 }

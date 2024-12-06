@@ -37,6 +37,28 @@ window.addEventListener("scroll", function () {
 
 });
 
+// Get all filter buttons and content sections
+const filterButtons = document.querySelectorAll('.filter-btn');
+const contentSections = document.querySelectorAll('.content-section');
+
+// Add event listeners to filter buttons
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const filterType = button.getAttribute('data-filter');
+
+    // Hide all content sections
+    contentSections.forEach(section => {
+      section.style.display = 'none';
+    });
+
+    // Show the selected content section
+    const selectedSection = document.querySelector(`.content-section[data-type="${filterType}"]`);
+    if (selectedSection) {
+      selectedSection.style.display = 'block';
+    }
+  });
+});
+
 
 
 

@@ -534,6 +534,7 @@ body.active { overflow: hidden; }
   gap: 10px;
 }
 
+
 .upcoming .filter-btn {
   color: var(--rich-black-fogra-29);
   background: var(--pastel-yellow);
@@ -572,8 +573,8 @@ body.active { overflow: hidden; }
 
 .top-rated .filter-btn {
   position: relative;
-  background: var(--rich-black-fogra-39);
-  color: var(--light-gray);
+  background: var(--pastel-yellow);
+  color: var(--eerie-black);
   font-size: var(--fs-10);
   font-weight: var(--fw-700);
   text-transform: uppercase;
@@ -583,7 +584,7 @@ body.active { overflow: hidden; }
 }
 
 .top-rated .filter-btn:focus {
-  color: var(--pastel-yellow);
+  color: var(--white);
   text-shadow: 0 3px 25px hsla(57, 97%, 45%, 0.5);
 }
 

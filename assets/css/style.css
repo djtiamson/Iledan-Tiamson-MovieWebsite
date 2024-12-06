@@ -741,7 +741,25 @@ body.active { overflow: hidden; }
   margin-bottom: 50px;
 }
 
+
+
 .movie-detail-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie-list-banner {
+  position: relative;
+  background: var(--gunmetal-1);
+  max-width: 250px;
+  margin-inline: auto;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.movie-list-banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1346,6 +1364,7 @@ body.active { overflow: hidden; }
   .movie-detail { padding-bottom: var(--section-padding); }
 
   .movie-detail-content { max-width: 620px; }
+
 
   .detail-title { --fs-1: 60px; }
 

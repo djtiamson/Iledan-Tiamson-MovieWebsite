@@ -529,7 +529,6 @@ body.active { overflow: hidden; }
   gap: 25px;
 }
 
-
 .ratings .filter-btn {
   color: var(--rich-black-fogra-29);
   background: var(--pastel-yellow);
@@ -543,6 +542,26 @@ body.active { overflow: hidden; }
 .ratings .filter-btn:focus { border-color: var(--pastel-yellow); }
 
 .ratings .movies-list > li {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+/*-----------------------------------*\
+ * #ABOUT
+\*-----------------------------------*/
+
+.about {
+  background: url("../images/ratings-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--section-padding);
+}
+
+.about .flex-wrapper { margin-bottom: 50px; }
+
+.about .section-title { margin-bottom: 30px; }
+
+.about .movies-list > li {
   min-width: 100%;
   scroll-snap-align: start;
 }

@@ -891,6 +891,48 @@ body.active { overflow: hidden; }
 .download-btn ion-icon { font-size: 16px; }
 
 
+/*-----------------------------------*\
+ * #STAR RATINGS
+\*-----------------------------------*/
+
+.stars {
+  font-size: 0;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.star {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background-color: gold;
+  margin-right: 5px;
+}
+
+/* Half-Filled Star: 50% gold, 50% black */
+.half-star {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to right, gold 50%, black 50%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-right: 5px;
+}
+
+/* Bordered Star: black border, white background */
+.bordered-star {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;  /* Black border */
+  background-color: rgb(0, 0, 0);  /* White background */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-right: 5px;
+}
+
 
 
 

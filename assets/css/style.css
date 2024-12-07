@@ -536,28 +536,44 @@ body.active { overflow: hidden; }
 
 .upcoming .section-title { margin-bottom: 30px; }
 
+
+/*-----------------------------------*\
+ * #RATINGS
+\*-----------------------------------*/
+
+.ratings {
+  background: url("../images/ratings-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--section-padding);
+}
+
+.ratings .flex-wrapper { margin-bottom: 50px; }
+
+.ratings .section-title { margin-bottom: 30px; }
+
 .filter-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 25px;
 }
 
 
-.upcoming .filter-btn {
+.ratings .filter-btn {
   color: var(--rich-black-fogra-29);
   background: var(--pastel-yellow);
-  font-size: var(--fs-11);
+  font-size: var(--fs-14);
   font-weight: var(--fw-500);
   border: 2px solid var(--pastel-yellow);
-  padding: 12px 26px;
-  border-radius: 50px;
+  padding: 16px 32px;
+  border-radius: 60px;
 }
 
-.upcoming .filter-btn:focus { border-color: var(--pastel-yellow); }
+.ratings .filter-btn:focus { border-color: var(--pastel-yellow); }
 
-.upcoming .movies-list > li {
+.ratings .movies-list > li {
   min-width: 100%;
   scroll-snap-align: start;
 }
@@ -1400,6 +1416,5 @@ body.active { overflow: hidden; }
     height: auto; /* Maintain aspect ratio */
     max-width: 100%; /* Ensure it fits within its container */
 }
-
 
 }

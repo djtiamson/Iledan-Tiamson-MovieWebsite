@@ -55,7 +55,7 @@
             </label>
             <select name="language" id="language">
                 <option value="en">EN</option>
-                <option value="au">FIL</option>
+                <option value="fil">FIL</option>
             </select>
         </div>
     </div>
@@ -422,6 +422,21 @@
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    const languageSelect = document.getElementById('language');
+
+    languageSelect.addEventListener('change', function() {
+      const selectedLanguage = languageSelect.value;
+      
+      if (selectedLanguage === 'en') {
+    window.location.href = 'index.html';
+} else if (selectedLanguage === 'fil') {
+    window.location.href = 'fil-index.html'; 
+}
+
+    });
+  </script>
 
 </body>
 </html>

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Popcorn Picks - Movies</title>
+  <title>Popcorn Picks - Ratings</title>
 
   <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -18,7 +18,7 @@
 
 <body id="#top">
 
-  <!-- HEADER -->
+  <!--  - #HEADER -->
   <header class="header" data-header>
     <div class="container">
 
@@ -65,16 +65,22 @@
   <main>
     <article>
 
-      <!-- MOVIE DETAIL -->
+     <!-- WEB SERIES DETAIL -->
 
       <!-- DANNAH PART -->
-        <section class="movie-detail">
-        <h1 class="h1 section-title" style="text-align: center;">Movie Reviews by Dannah</h1>
-        <br>
-        <hr>
-        <br>
-        <br>
+        <section class="ratings">
+        <br><h1 class="h1 section-title" style="text-align: center;">Our Movie Ratings</h1>
 
+        <ul class="filter-list">
+            <li><a href="ratings.html" class="filter-btn">Movies</a></li>
+            <li><a href="ratings-2.html" class="filter-btn">TV Shows</a></li>
+            <li><a href="ratings-3.html" class="filter-btn">Web Series</a></li>
+          </ul>
+        </section>
+
+        <br><h2 class="h2 section-title" style="text-align: center;">By Dannah</h2><br>
+
+        <section class="movie-detail">
         <div class="container">
             <figure class="movie-list-banner">
                 <img src="./assets/sections-media/movie-1.jpg" alt="Zootopia">
@@ -214,12 +220,10 @@
         </div>
         </section>
 
-
+        
          <!-- SAM PART -->
-         <hr>
+        <br><h2 class="h2 section-title" style="text-align: center;">By Sam</h2><br>
         <section class="movie-detail">
-            <h1 class="h1 section-title" style="text-align: center;">Movie Reviews by Sam</h1>
-            <br><br><hr><br>
     
             <div class="container">
                 <figure class="movie-list-banner">
@@ -361,12 +365,12 @@
                     </div>
             </div>
             </section>
-    
+
     </article>
   </main>
 
 
- <!-- FOOTER -->
+  <!-- FOOTER -->
 <footer class="footer">
 
   <div class="footer-top">
@@ -375,7 +379,7 @@
       <div class="footer-brand-wrapper">
 
         <a href="./index.html" class="logo">
-          <img src="./assets/images/popcorn_photo.png" alt="logo">
+          <img src="./assets/images/popcorn_photo.png" alt="Popcorn Picks Logo">
         </a>
 
         <ul class="footer-list">
@@ -408,7 +412,7 @@
 </footer>
 
 
-  <!-- #GO TO TOP -->
+  <!-- GO TO TOP -->
   <a href="#top" class="go-top" data-go-top>
     <ion-icon name="chevron-up"></ion-icon>
   </a>
@@ -435,5 +439,4 @@
   </script>
 
 </body>
-
 </html>

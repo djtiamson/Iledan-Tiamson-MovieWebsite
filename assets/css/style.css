@@ -248,7 +248,7 @@ body.active { overflow: hidden; }
  }
 
 .btn-primary:is(:hover, :focus) {
-  background: red;
+  background: white;
   color: var(--xiketic);
 }
 

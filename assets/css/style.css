@@ -248,7 +248,17 @@ body.active { overflow: hidden; }
  }
 
 .btn-primary:is(:hover, :focus) {
+  background: red;
+  color: var(--xiketic);
+}
+
+.btn-add { 
   background: var(--pastel-yellow);
+  margin-top: 30px;
+ }
+
+.btn-add:is(:hover, :focus) {
+  background: #FFC107;
   color: var(--xiketic);
 }
 
@@ -1366,7 +1376,7 @@ body.active { overflow: hidden; }
 
   .movie-detail { padding-bottom: var(--section-padding); }
 
-  .movie-detail-content { max-width: 620px; }
+  .movie-detail-content { max-width: 1020px; }
 
 
   .detail-title { --fs-1: 60px; }

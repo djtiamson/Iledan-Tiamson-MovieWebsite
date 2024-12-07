@@ -1396,7 +1396,7 @@ body.active { overflow: hidden; }
   }
 
   .logo img {
-    width: 40px; /* Set width to 40px for a small icon size */
+    width: 60px; /* Set width to 40px for a small icon size */
     height: auto; /* Maintain aspect ratio */
     max-width: 100%; /* Ensure it fits within its container */
 }

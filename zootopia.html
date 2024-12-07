@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/popcorn_photo.png" type="image">
+
 
   <!--Title of Movie-->
   <title>Zootopia</title>
@@ -79,7 +81,7 @@
             </figure>
           <div class="movie-detail-content">
 
-            <p class="detail-subtitle">Zootopia</p>
+            <p class="detail-subtitle">[Movie]</p>
 
             <h1 class="h1 detail-title">
               Zootopia
@@ -94,7 +96,7 @@
                 <div>
                   <ion-icon name="calendar-outline"></ion-icon>
 
-                  <time datetime="2021">2016</time>
+                  <time datetime="2016">2016</time>
                 </div>
 
                 <div>
@@ -108,28 +110,35 @@
 
             <!--Introduction-->
             <p class="storyline">
-              A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.
+              In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.
             </p>
 
 
 <!-- Movie Genre-->
-<div class="ganre-wrapper">
-  <p style="color: hsl(50, 85%, 59%);">
-    Genre:
+<div class="meta-wrapper">
+  <p>
+    Genre: Comedy, Action, Adventure, Science Fiction
   </p>
-                <a href="#">Comedy,</a>
-                <a href="#">Action,</a>
-                <a href="#">Adventure,</a>
-                <a href="#">Animation</a>
-      
-              </div>
+</div>
               <div class="movie-card">
-                <a href="./movie-details.html">
-                  <button class="btn btn-add">
-                    <ion-icon name="add"></ion-icon>
-                    <span>Add to Watchlist</span>
-                  </button>
-                </a>
+                <input
+                value="favorite-button"
+                name="favorite-checkbox"
+                id="favorite"
+                type="checkbox"
+              />
+              <label class="buttonWatch" for="favorite">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-bookmark" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                </svg>
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  ></path>
+                </svg>
+                <div class="action">
+                  <span class="option-1">ADD TO WATCHLIST</span>
+                  <span class="option-2">ADDED TO WATCHLIST</span>
+                </div>
               </div>
           </div>
 

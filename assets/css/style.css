@@ -437,6 +437,18 @@ body.active { overflow: hidden; }
               inset 0 -1px 0 var(--black);
 }
 
+/*-----------------------------------*\
+ * #LOGO
+\*-----------------------------------*/
+
+.logo img {
+  width: auto;  /* Let the width adjust automatically */
+  height: 40px;  /* Fixed height for the logo */
+  max-height: 100%;  /* Ensure the logo does not exceed the header height */
+  max-width: 100%;   /* Ensure the logo does not exceed the header width */
+  object-fit: contain;  /* Prevent distortion or stretching */
+  transition: height 0.2s ease-in-out;  /* Smooth transition */
+}
 
 /*-----------------------------------*\
  * #HEADER
@@ -448,7 +460,7 @@ body.active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  padding-block: 0px;
+  padding-block: 10px;  /* Default padding */
   transition: var(--transition-2);
   z-index: 4;
 }
@@ -462,9 +474,21 @@ body.active { overflow: hidden; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;  /* Ensure full height for the header */
 }
 
-.header-actions { display: none; }
+/* Mobile and smaller screen adjustments */
+@media screen and (max-width: 768px) {
+  .logo img {
+    height: 30px;  /* Reduce logo size on mobile */
+  }
+
+  .header {
+    padding-block: 10px;
+  }
+}
+
+
 
 .menu-open-btn {
   color: var(--rich-black-fogra-29);
@@ -1250,11 +1274,5 @@ body.active { overflow: hidden; }
     font-size: 30px;
     transform: rotate(-0.25turn);
   }
-
-  .logo img {
-    width: 60px; 
-    height: auto; 
-    max-width: 100%; 
-}
 
 }

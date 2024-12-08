@@ -1,4 +1,4 @@
-Web Development - Activity #4 : Build your own Website
+# Web Development - Activity #4 : Build your own Website
 
 BSIS - 3A
   1. Iledan, Samantha
@@ -16,7 +16,7 @@ Our Top 5 Movies, Shows, & Series
  - CSS
  - JavaScript
 
-##Task Assignment:
+## Task Assignment:
 Iledan - Movies, TV Shows, Web Series, Continue Reading for Ratings Pages
 Tiamson - Home, About Us, Ratings Pages, and Color and Background Formatting
 

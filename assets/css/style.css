@@ -294,7 +294,7 @@ body.active { overflow: hidden; }
   transition: all 0.5s;
 }
 
-#favorite + .buttonWatch. action span.option-1 {
+#favorite + .buttonWatch .action span.option-1 {
   transform: translate(0px, 0%);
   opacity: 1;
 }
@@ -442,12 +442,12 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .logo img {
-  width: auto;  /* Let the width adjust automatically */
-  height: 40px;  /* Fixed height for the logo */
-  max-height: 100%;  /* Ensure the logo does not exceed the header height */
-  max-width: 100%;   /* Ensure the logo does not exceed the header width */
-  object-fit: contain;  /* Prevent distortion or stretching */
-  transition: height 0.2s ease-in-out;  /* Smooth transition */
+  width: auto;  
+  height: 40px;  
+  max-height: 100%; 
+  max-width: 100%;   
+  object-fit: contain;  
+  transition: height 0.2s ease-in-out;  
 }
 
 /*-----------------------------------*\
@@ -460,7 +460,7 @@ body.active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  padding-block: 10px;  /* Default padding */
+  padding-block: 10px;
   transition: var(--transition-2);
   z-index: 4;
 }
@@ -474,13 +474,12 @@ body.active { overflow: hidden; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;  /* Ensure full height for the header */
+  height: 100%;  
 }
 
-/* Mobile and smaller screen adjustments */
 @media screen and (max-width: 768px) {
   .logo img {
-    height: 30px;  /* Reduce logo size on mobile */
+    height: 30px; 
   }
 
   .header {
